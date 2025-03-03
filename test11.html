@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table Tag : (Block Tag) -->
+    <!-- Table แบบที่ 1 แต่ละ cell ใน table มีขนาดเท่ากัน -->
+    <br><br><br>
+    <table border="1" width="400px">
+        <tr>
+            <td>I</td>
+            <td>II</td>
+            <td>III</td>
+        </tr>
+        <tr>
+            <td>IV</td>
+            <td>V</td>
+            <td>VI</td>
+        </tr>
+        <tr>
+            <td>VII</td>
+            <td>VIII</td>
+            <td>IX</td>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <!-- Table แบบที่ 2 แต่ละ cell ใน table มีขนาดแตกต่างกัน -->
+    <table border="1" width="400px" style="text-align: center;">
+        <tr>
+            <td colspan="2">I</td>
+            <td>II</td>
+            <td>III</td>
+            <td>IV</td>
+        </tr>
+        <tr>
+            <td >V</td>
+            <td colspan="2" rowspan="2">VI</td>
+            <td colspan="2">VII</td>
+        </tr>
+        <tr>
+            <td >VIII</td>
+            <td rowspan="2">IX</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td colspan="2">XI</td>
+            <td>XII</td>
+            <td>XIII</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <!-- Table แบบที่ 3 แบบมีการกำหนดหัวตาราง -->
+    <!-- หัวตารางแนวตั้ง -->
+    <table border="1" width="400px">
+        <tr>
+            <th>Roman No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>II</td>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>III</td>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <!-- หัวตารางแนวนอน -->
+    <table border="1" width="400px">
+        <tr>
+            <th>กรุงเทพ</th>
+            <td>บางแค</td>
+            <td>บางบอน</td>
+        </tr>
+        <tr>
+            <th>ราชบุรี</th>
+            <td>บ้านโป่ง</td>
+            <td>โพธาราม</td>
+        </tr>
+        <tr>
+            <th>กาญจนบุรี</th>
+            <td>ท่าม่วง</td>
+            <td>บ่อพลอย</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <!-- Table แบบที่ 4 แบบมีการแบ่งส่วนต่างๆของตาราง -->
+    <table border="1" width="400px">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td>Coffee</td>
+                <td style="text-align: right;" padding-right="30px">35</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td>Milk tea</td>
+                <td style="text-align: right;" padding-right="30px">40</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td>Orange juice</td>
+                <td style="text-align: right;" padding-right="30px">25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" style="text-align: center;" padding-right="30px">Total</th><th></th>
+                <td style="text-align: right;" padding-right="30px">140</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+    <br><br><br><br><br><br>
+</body>
+</html>
